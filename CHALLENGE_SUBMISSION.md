@@ -1,36 +1,5 @@
 # Submission
 
-I am aware that pushing a .env is incorrect behaviour in a standard setting. 
-
-However, I decided to leave it for an easier setup.
-
-## How to Run
-
-Clone the repo and checkout the appropriate branch
-
-```bash
-git clone git@github.com:remi-cab/url-shortener-candidates-challenge.git
-
-
-cd /path/to/url-shortener-candidates-challenge
-
-
-git checkout remi
-```
-
-Start the application with Docker Compose:
-
-```bash
-docker compose up
-```
-
-Apply the Prisma database migrations:
-
-```bash
-DATABASE_URL="postgresql://postgres:postgres@localhost:5432/shortener?schema=public" \
-  pnpm --filter api exec prisma migrate deploy
-```
-
 ## What I Did
 
 <!-- Briefly describe what you implemented or improved. What did you prioritize and why? -->
