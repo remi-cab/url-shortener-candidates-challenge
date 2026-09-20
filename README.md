@@ -37,7 +37,7 @@ Start the application with Docker Compose:
 docker compose up --build
 ```
 
-Apply the Prisma database migrations:
+If running for the first time, apply the Prisma database migrations:
 
 ```bash
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/shortener?schema=public" \
